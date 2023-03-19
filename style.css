@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100vw;
+    height: 100px;
+}
+.btn-outline-success{
+    background-color: #FF3839;
+    color: #fff;
+    border: none;
+    width: 180px;
+}
+
+.btn-outline-success:hover{
+    color: #FF3839;
+    border: #FF3839 1px solid;
+    background-color: transparent;
+}
+#hero{
+    width: 100vw;
+    height: fit-content;
+    background-image: url(images/hero\ bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.nav-link{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+}
+p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+}
+.light-mode{
+    color: #696969;
+}
+.span{
+    color: #FF3839;
+    font-weight: 700;
+}
+h1{
+    color: #fff;
+    font-size: 4.35rem;
+    font-weight: 700;
+    line-height: 130%;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.underlinedi{
+    border-bottom: #FF3839 2px solid;
+}
+.buttons{
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-light{
+    width: 180px;
+}
+.m-y{
+    margin-top: 90px;
+    margin-bottom: 200px;
+}
+#about{
+    width: 100vw;
+    height: fit-content;
+    background-color: #fff;
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+
+.g-line{
+    width: 143px;
+    height: 2px;
+    background-color: #D8D8D8;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+#services{
+    width: 100vw;
+    height: fit-content;
+    background-color: #202020;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.card-b{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: fit-content;
+
+}
+.card-text{
+    color: #696969;
+    font-size: 11px;
+}
+.active{
+    color: #FF3839;
+}
+
+#portfolio{
+    width: 100vw;
+    height:fit-content;
+    background-color: #fff;
+    padding: 112px 0;
+}
+.btn-info{
+    background-color: #F2F2F2;
+    border: none;
+}
+.project1{
+    width: 374px;
+    height: 439px;
+    background-color: #202020;
+    padding: 0;
+    background-image: url(images/project1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 2s;
+}
+.project2{
+    width: 374px;
+    height: 513px;
+    background-color: #202020;
+    padding: 0;
+    background-image: url(images/project2.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project3{
+    width: 374px;
+    height: 439px;
+    background-color: #202020;
+    padding: 0;
+    background-image: url(images/project3.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: #ffffff;
+    display: none;
+}
+.project1:hover{
+    background-blend-mode: overlay;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+.project1:hover h3{
+    display: block;
+    transition-duration: 2s;
+}
+.project2:hover{
+    background-blend-mode: overlay;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.project2:hover h3{
+    display: block;
+    transition-duration: 1s;
+}
+.project3:hover{
+    background-blend-mode: overlay;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.project3:hover h3{
+    display: block;
+    transition-duration: 1s;
+}
+#testimonials{
+    width: 100vw;
+    height: fit-content;
+    background-color: #202020;
+    padding: 112px 0;
+}
+.cardi{
+    margin: 0 auto;
+    background-color:transparent;
+    border: none;
+}
+.carousel-item{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#faqs{
+    width: 100vw;
+    height: fit-content;
+    background-color: #fff;
+    padding: 112px 0;
+
+}
+
+
+.question{
+    width: 100%;
+    max-height: 84px;
+    background-color: #F1F1F1;
+    box-sizing: border-box;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+.answer{
+    width: 100%;
+    display: none;
+    position: relative;
+    margin-top: 15px;
+}
+.answer.shown{
+    display: block;
+}
+.drop{
+    margin-top: 7px;
+    margin-bottom: auto;
+}
+.drop.checked{
+ transform: rotate(180deg);
+}
+
+#contact{
+    width: 100vw;
+    height:fit-content;
+    background-color: #CACACA;
+    padding: 112px 0;
+    background-image: url(images/client.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+footer{
+    width: 100vw;
+    height: fit-content;
+    background-color: #202020;
+    padding: 76px 0 40px 0;
+}
+hr{
+    color: #fff;
+    margin-top: 50px;
+}
+.terms{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+}
+/*mobile version*/
+@media (max-width:992px) {
+.navbar-nav{
+    background-color: gray;
+    padding-left: 30px;
+}
+.m-y{
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+#about{
+height: fit-content;    
+margin-bottom: -70px;
+
+}
+.grey-line{
+ margin-top: 40px;
+}
+.card-b{
+    margin-right: auto;
+    margin-left: auto;
+}
+.project1 , .project2 , .project3{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#services , #portfolio{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.categories{
+    margin-bottom: 20px;
+}
+.btn-info{
+    margin-top: 7px;
+}
+#testimonials{
+    padding: 40px 0;
+}
+#faqs{
+    padding: 40px 0;
+}
+#contact{
+    width: 100vw;
+    height:fit-content;
+    background-color: #CACACA;
+    padding: 40px 0;
+    background-image: none
+}
+.terms{
+    display: flex;
+    flex-direction:column;
+    
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.25rem;
+}
+p{
+    font-size: 12px;
+}
+}
