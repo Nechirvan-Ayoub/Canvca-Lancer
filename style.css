@@ -131,7 +131,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition-duration: 2s;
+    transition: 1s ease-in;
 }
 .project2{
     width: 374px;
@@ -167,29 +167,23 @@ h3{
 .project1:hover{
     background-blend-mode: overlay;
     cursor: pointer;
-    transition-duration: 2s;
 }
 .project1:hover h3{
     display: block;
-    transition-duration: 2s;
 }
 .project2:hover{
     background-blend-mode: overlay;
     cursor: pointer;
-    transition-duration: 1s;
 }
 .project2:hover h3{
     display: block;
-    transition-duration: 1s;
 }
 .project3:hover{
     background-blend-mode: overlay;
     cursor: pointer;
-    transition-duration: 1s;
 }
 .project3:hover h3{
     display: block;
-    transition-duration: 1s;
 }
 #testimonials{
     width: 100vw;
